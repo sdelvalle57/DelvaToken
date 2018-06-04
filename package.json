@@ -1,0 +1,31 @@
+{
+  "name": "delvatoken",
+  "version": "1.0.0",
+  "description": "ERC20 Token",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "truffle-hdwallet-provider": "0.0.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/sdelvalle57/DelvaToken.git"
+  },
+  "keywords": [
+    "ERC20",
+    "Token",
+    "ETH"
+  ],
+  "author": "Santiago Del Valle",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sdelvalle57/DelvaToken/issues"
+  },
+  "homepage": "https://github.com/sdelvalle57/DelvaToken#readme"
+}
