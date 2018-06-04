@@ -1,9 +1,9 @@
 pragma solidity ^0.4.23;
 
-import "./DelvaToken.sol";
-import "./SafeERC20.sol";
-import "./Ownable.sol";
-import "./SafeMath.sol";
+import "../token/DelvaToken.sol";
+import "../token//SafeERC20.sol";
+import "../utils/Ownable.sol";
+import "../utils/SafeMath.sol";
 
 
 /**

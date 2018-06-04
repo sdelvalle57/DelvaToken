@@ -1,10 +1,10 @@
 pragma solidity ^0.4.23;
 
 import "./TokenVesting.sol";
-import "./DelvaToken.sol";
-import "./SafeMath.sol";
-import "./Ownable.sol";
-import "./SafeERC20.sol";
+import "../token/DelvaToken.sol";
+import "../utils/SafeMath.sol";
+import "../utils/Ownable.sol";
+import "../token/SafeERC20.sol";
 
 contract TokenVestingFactory is Ownable {
     event SetGlobalBalance(uint256 globalBalance);
